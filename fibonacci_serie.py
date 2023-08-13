@@ -20,7 +20,7 @@ def fibonacci_series_using_recursion(n):
 def main():
     # Generator
     fibo_obj = fibonacci_series_using_generator()  # create object
-    for num in range(5):
+    for i in range(5):
         print(next(fibo_obj))  # iterate object
 
     # Recursion
